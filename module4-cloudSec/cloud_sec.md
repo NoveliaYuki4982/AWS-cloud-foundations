@@ -80,20 +80,7 @@
 Best practice: Follow the principle of **least privilege**.
 
 ![](./images/3-authorization.png)
-<style>
-  .top-align {
-    vertical-align: top;
-  }
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 8px;
-    text-align: left;
-  }
-  table {
-    width: 100%;
-  }
-</style>
+
 <table>
   <thead>
     <tr>
@@ -232,3 +219,18 @@ Of course. Here is the text from the image in markdown format:
     * Payment Card Industry (PCI) and Service Organization Control (SOC) reports
 * Access AWS Artifact directly from the AWS Management Console
     * Under **Security, Identify & Compliance**, click **Artifact**.
+
+<style>
+  .top-align {
+    vertical-align: top;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+  }
+  table {
+    width: 100%;
+  }
+</style>
