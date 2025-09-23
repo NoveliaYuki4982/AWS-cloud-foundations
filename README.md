@@ -1,0 +1,2 @@
+# AWS Cloud Foundations
+This repository contains summaries of the content explained in the modules and important steps of the laboratories. To start the course yourself go to this [site](https://awsacademy.instructure.com/courses/134981).
