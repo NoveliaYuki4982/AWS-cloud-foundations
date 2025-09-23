@@ -1,5 +1,5 @@
 # Important Steps
-- You need to be careful when creating them because one mistake can lead to an incorrect instance. In my case I forgot to change it to t2.micro and the default is t3.micro, so the check said I created the instance wrong.
+- You need to be careful when creating them because one mistake can lead to an incorrect instance. In my case I forgot to change it to t2.micro and the default is t3.micro, so the check said I created the instance wrong. I had to redo the step for creating the EC2 instance.
 
 - In this lab we have created this structure:
 
