@@ -79,8 +79,61 @@ To access it you can use the conventional ways and one additional one: HTTPS que
 ![](./images/5-billing_dashboard.png)
 
 - AWS Budgets
-- AWS Cost and Usage Report
-- AWS Cost Explorer
+- AWS Cost and Usage Report: detailed from last 2 months
+- AWS Cost Explorer: overview from last year
+
+# 4. Technical Support Models
+<table>
+<tr>
+    <td class="top-align"><strong>Account assistance</strong></td>
+    <td>
+    <ul>
+        <li>Provide quick and efficient analysis.</li>
+        <li>Non-technical billing.</li>
+    </ul>
+    </td>
+</tr>
+<tr>
+    <td class="top-align"><strong>AWS Trusted Advisor</strong></td>
+    <td>
+    <ul>
+        <li>Automated service that acts like a customized cloud expert.</li>
+        <li>Looks for opportunities to reduce monthly expenditures and increase productivity.</li>
+    </ul>
+    </td>
+</tr>
+<tr>
+    <td class="top-align"><strong>Technical Account Manager (TAMs)</strong></td>
+    <td>
+    <ul>
+        <li>Provide guidance, architectural review, and ongoing communication.</li>
+        <li>Only available through the Enterprise Support plan.</li>
+    </ul>
+    </td>
+</tr>
+</table>
+
+**Support plans**
+<table>
+<tr>
+    <td class="top-align"><strong>Basic Support</strong></td>
+    <td>Resource Center access, Service Health Dashboard, product FAQs, discussion forums, and support for health checks</td>
+</tr>
+<tr>
+    <td class="top-align"><strong>Developer Support</strong></td>
+    <td>Support for early development on AWS</td>
+</tr>
+<tr>
+    <td class="top-align"><strong>Business Support</strong></td>
+    <td>Customers that run production workloads</td>
+</tr>
+<tr>
+    <td class="top-align"><strong>Enterprise Support</strong></td>
+    <td>Customers that run business and mission-critical workloads</td>
+</tr>
+</table>
+
+![](./images/6-support_plans.png)
 
 <style>
   .top-align {
