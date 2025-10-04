@@ -237,7 +237,86 @@ Here's the text from the image in Markdown format:
 </table>
 
 # 4. Container Services
+Containers are a method of operating system virtualization. Example: Docker
+Benefits:
+* Repeatable.
+* Self-contained environments.
+* Software runs the same in different environments.
+    * Developer's laptop, test, production.
+* Faster to launch and stop or terminate than virtual machines
 
+![](./images/7-containers.png)
+
+![](./images/8-containers_vs_VMs.png)
+
+## 4.1 Amazon Elastic Container Service (ECS)
+Helps to manage containers. Key question: Do you want to manage the Amazon ECS cluster that runs the containers?
+
+* If **yes**, create an **Amazon ECS cluster backed by Amazon EC2** (provides more granular control over infrastructure)
+
+* If **no**, create an **Amazon ECS cluster backed by AWS Fargate** (easier to maintain, focus on your applications)
+
+![](./images/9-ECS_cluster_options.png)
+
+## 4.2 Amazon Elastic Kubernetes Service (EKS)
+Complements Docker. Manage clusters of Amazon EC2 compute instances:
+
+* Enables you to run Kubernetes on AWS
+* Certified Kubernetes conformant (supports easy migration)
+* Supports Linux and Windows containers
+* Compatible with Kubernetes community tools and supports popular Kubernetes add-ons
+
+Use to:
+* Manage clusters of Amazon EC2 compute instances
+* Run containers that are orchestrated by Kubernetes on those instances
+
+## 4.3 Amazon Elastic Container Registry (ECR)
+Fully managed Docker **container registry** that makes it easy for developers to store, manage, and deploy Docker container images.
+
+# 5. AWS Lambda
+![](./images/10-AWS_lambda_1.png)
+
+* It supports multiple programming languages
+* Completely automated administration
+* Built-in fault tolerance
+* It supports the orchestration of multiple functions
+* Pay-per-use pricing
+
+![](./images/10-AWS_lambda_2.png)
+
+**Soft limits** per Region:
+* Concurrent executions = 1,000
+* Function and layer storage = 75 GB
+
+**Hard limits** for individual functions:
+* Maximum function memory allocation = 10,240 MB
+* Function timeout = 15 minutes
+* Deployment package size = 250 MB unzipped, including layers
+* Container image code package size = 10 GB
+
+# 6. AWS Elastic Beanstalk
+* An easy way to get **web applications** up and running
+
+* A **managed service** that automatically handles –
+    * Infrastructure provisioning and configuration
+    * Deployment
+    * Load balancing
+    * Automatic scaling
+    * Health monitoring
+    * Analysis and debugging
+    * Logging
+
+* **No additional charge for Elastic Beanstalk**
+    * Pay only for the underlying resources that are used
+
+![](./images/19-beanstalk_figure.png)
+
+* It supports web applications written for common platforms
+    * **Java**, **.NET**, **PHP**, **Node.js**, **Python**, **Ruby**, **Go**, and **Docker**
+
+* You upload your code
+    * Elastic Beanstalk automatically handles the deployment
+    * Deploys on servers such as **Apache**, **NGINX**, **Passenger**, **Puma**, and **Microsoft Internet Information Services (IIS)**
 
 <style>
   .top-align {
